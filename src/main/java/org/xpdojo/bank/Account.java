@@ -31,4 +31,8 @@ public class Account {
         }
         return false;
     }
+
+    public String balancePrint() {
+        return "Account Balance is : "+ balanceAmount;
+    }
 }
